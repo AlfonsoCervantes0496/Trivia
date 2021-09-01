@@ -1,0 +1,317 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #FF4848;
+
+}
+.logo{
+    width: 10%;
+    border-radius: 14rem;
+    overflow: hidden;
+    height: 9rem;
+    margin-left: 2rem;
+    
+}
+.logo img{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+header a{
+    margin-right: 2rem;
+    font-family:'Roboto', sans-serif; 
+    color: #FFD371;
+}
+.baseF{
+    margin-top: 5rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:#FFD371;
+    border-radius: 10px;
+    padding-top: 2rem;
+
+}
+#NP{
+    margin-top: 0.5rem;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    background-color:transparent ;
+    font-family:'Roboto', sans-serif; 
+}
+label{
+    text-align: center;
+    padding-top: 2rem;
+    
+    font-family:'Roboto', sans-serif; 
+}
+select{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: outset;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: black;
+    background-color: transparent;
+    text-align: center;
+
+}
+option{
+    background-color: transparent;
+}
+.formulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#inicio{
+    margin-top: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: outset;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: black;
+    background-color:transparent;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+#inicio:hover{
+    background-color:#FF4848;
+    color: #FFD371;
+    border-color: #FFD371;
+}
+.Npregunta{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+}
+.cat{color: black;
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family:'Roboto', sans-serif;
+}
+.pregunta{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+
+}
+.div{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-color: white;
+    border-style: outset;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 1rem;
+
+
+}
+.button{
+    border-color: white;
+    border-style: outset;
+    border-radius: 9px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left:1rem ;
+    
+
+
+}
+.button:hover{
+    background-color: white;
+}
+.fin{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 3rem;
+}
+@media (max-width: 780px) {
+
+
+    body{
+        margin: 0;
+        background-color: #FF4848;
+    
+    }
+    .logo{
+        width: 30%;
+        border-radius: 10px;
+        overflow:visible;
+        height: 9rem;
+        margin-left: 0;
+        
+    }
+    .logo img{
+        width: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        height: 8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 10px;
+    }
+    header a{
+        display: none;
+        margin-right: 2rem;
+        font-family:'Roboto', sans-serif; 
+        color: #FFD371;
+    }
+    .baseF{
+        margin-top: 5rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color:#FFD371;
+        border-radius: 10px;
+        padding-top: 2rem;
+    
+    }
+    #NP{
+        margin-top: 0.5rem;
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 10px;
+        background-color:transparent ;
+        font-family:'Roboto', sans-serif; 
+    }
+    label{
+        text-align: center;
+        padding-top: 2rem;
+        
+        font-family:'Roboto', sans-serif; 
+    }
+    select{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-style: outset;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: black;
+        background-color: transparent;
+        text-align: center;
+    
+    }
+    option{
+        background-color: transparent;
+    }
+    .formulario{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #inicio{
+        margin-top: 1.5rem;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-style: outset;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: black;
+        background-color:transparent;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    
+    }
+    #inicio:hover{
+        background-color:#FF4848;
+        color: #FFD371;
+        border-color: #FFD371;
+    }
+    .Npregunta{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+    }
+    .cat{color: black;
+        font-size: 2rem;
+        margin-left: rem;
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+    }
+    .pregunta{
+        color: black;
+        font-size: 1rem;
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+    
+    }
+    .div{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-color: white;
+        border-style: outset;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    
+    
+    }
+    .button{
+        border-color: white;
+        border-style: outset;
+        border-radius: 9px;
+        background-color: transparent;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        margin-left:10% ;
+        margin-right: 10%;
+        margin-botton:1rem;
+        width: 80%;
+        
+    
+    
+    }
+    .button:hover{
+        background-color: white;
+    }
+    .fin{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+        margin-bottom: 3rem;
+    }
+
+    
+}
